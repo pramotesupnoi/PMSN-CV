@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Noto Sans Thai', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-profile {
+  background-color: #80cbc4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-profile .profile-img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50rem;
+  overflow: hidden;
+  padding-top: calc( 100% - 8px);
+  position: relative;
+  border: 4px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-profile .profile-img .profile-img-inner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-profile .profile-img .profile-img-inner img {
+  width: 100%;
 }
