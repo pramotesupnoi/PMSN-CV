@@ -30,8 +30,12 @@ body {
   width: 100%;
 }
 
-.main-about-me {
+.main-sec1 {
   background-color: #fff;
+}
+
+.main-work-exp {
+  position: relative;
 }
 
 .work-exp-list {
@@ -63,4 +67,45 @@ body {
   background-color: #fff;
   border-radius: 50rem;
   border: 1px solid #9bccdb;
+}
+
+.dev-anim {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .dev-anim {
+    position: absolute;
+    right: 0%;
+    top: 15%;
+    width: 50%;
+  }
+}
+
+.skills-item img {
+  width: 1.5rem;
+  margin-right: .5rem;
+}
+
+.anim-list {
+  list-style: none;
+}
+
+.anim-list .anim-list-item {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.anim-list .anim-list-item .dot {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: block;
+  left: -.5rem;
+  top: 0rem;
+}
+
+.main-sec2 {
+  background-color: #C629E3;
 }
