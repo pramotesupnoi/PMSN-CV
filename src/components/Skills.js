@@ -8,7 +8,7 @@ export default function Skills() {
                 <div className="col-xl-6">
                     <h5 className="mb-4 text-black-50">Professional skills</h5>
                     <div className="row gx-2">
-                        <SkillsItem img="002-js.png" name="JavaScript" details="ReactJS, JQuery" />
+                        <SkillsItem img="002-js.png" name="JavaScript" details="React, JQuery" />
                         <SkillsItem img="001-html-5.png" name="HTML" />
                         <SkillsItem img="003-css-3.png" name="CSS" />
                         <SkillsItem img="004-c-sharp.png" name="C# .Net" details="Windows form app" />

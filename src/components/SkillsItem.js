@@ -4,7 +4,8 @@ export default function SkillsItem(props) {
     return (
         <div className="col-sm-6 col-lg-4 mb-3">
             <div className="skills-item">
-                <img src={`/img/skills/${props.img}`} />
+                {/* <img src={`${process.env.PUBLIC_URL}/img/skills/${props.img}`} /> */}
+                <img src={`./img/skills/${props.img}`} />
                 <span className="fw-bold">{props.name}</span>
                 {
                     props.details !== undefined ?

@@ -5,10 +5,7 @@ export default function AboutMeTop() {
         <div className="main-about-me mb-5">
           <h3 className="mb-4">About me</h3>
           <p className="fw-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed
-            est at dui accumsan mattis a ac dui. Ut eu condimentum sem, sed
-            auctor mauris. Nam elementum urna metus, ut sodales nisl imperdiet
-            vel. Quisque vel diam in erat dignissim pulvinar.
+          Hello, I'm Pramote Supnoi. You can call me James. I'm a freelance software developer with 5 years experience living in Thailand. I can develop variety kind of software such as web app, AR/VR app, game, cross platform mobile app, rest api. I believe in efficiency and clean code. If you have any questions, feel free to contact me anytime! my contact information is inside this page.
           </p>
         </div>
     )

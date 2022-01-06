@@ -9,7 +9,7 @@ export default function TopProfile() {
             <div className="col-6 col-sm-4 col-md-3 col-lg-10">
               <div className="profile-img">
                 <div className="profile-img-inner">
-                  <img src="/img/smiley-dog.jpg" />
+                  <img src={`./img/profile.jpg`} />
                 </div>
               </div>
             </div>
