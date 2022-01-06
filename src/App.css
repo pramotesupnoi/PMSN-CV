@@ -3,10 +3,17 @@ body {
   background-image: url(./img/abstract-background.jpg);
   background-size: cover;
   background-attachment: fixed;
+  background-position: bottom;
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-position: center;
+  }
 }
 
 .main-profile {
-  background-color: #9bccdb;
+  background-color: #a2d5e5;
 }
 
 .main-profile .profile-img {
@@ -66,7 +73,7 @@ body {
   height: 1.5rem;
   background-color: #fff;
   border-radius: 50rem;
-  border: 1px solid #9bccdb;
+  border: 1px solid #a2d5e5;
 }
 
 .dev-anim {
@@ -120,7 +127,7 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  .main-activities .dog-anim  {
+  .main-activities .dog-anim {
     position: absolute;
     bottom: 0%;
     right: 0;
@@ -130,10 +137,21 @@ body {
 
 .main-ref-person {
   border-top: 4px solid #C629E3;
-  border-bottom: 4px solid #9bccdb;
+  border-bottom: 4px solid #a2d5e5;
+  position: relative;
+}
 
-  /* background-image: url(./img/wb_bg.png);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100% ; */
+.main-ref-person .ast-anim {
+  display: none;
+}
+
+
+@media only screen and (min-width: 650px) {
+  .main-ref-person .ast-anim {
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    width: 40%;
+    display: block;
+  }
 }

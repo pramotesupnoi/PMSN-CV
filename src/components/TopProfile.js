@@ -15,7 +15,7 @@ export default function TopProfile() {
             </div>
             <div className="col-12 col-md-9 col-lg-12">
               <div className="text-center mt-4">
-                <h2>Pramote Supnoi</h2>
+                <h3>Pramote Supnoi</h3>
                 <h5 className="fw-light text-black-50">Full-stack developer</h5>
               </div>
               <div className="row mt-4">

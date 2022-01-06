@@ -6,6 +6,7 @@ import CertsAndAwards from "./CertsAndAwards";
 import Activities from "./Activities";
 import RefPerson from "./RefPerson";
 import Education from "./Education";
+import Accomplishments from "./Accomplishments";
 
 export default function AboutMe() {
   return (
@@ -24,7 +25,12 @@ export default function AboutMe() {
       <div className="main-sec1 p-3 py-4 shadow text-dark">
         <Activities />
       </div>
-      <RefPerson />
+      <div className="main-sec2 p-3 py-4 shadow text-white">
+        <Accomplishments />
+      </div>
+      <div>
+        <RefPerson />
+      </div>
     </div>
   );
 }
