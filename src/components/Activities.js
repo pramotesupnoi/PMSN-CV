@@ -1,7 +1,17 @@
 import React from 'react'
 import ActivitiesItem from './ActivitiesItem'
+import * as dogAnimation from './../animations/lf30_editor_o1ltoqf9.json'
+import Lottie from 'react-lottie';
 
 export default function Activities() {
+    const animOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: dogAnimation.default,
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid slice"
+        }
+      };
     return (
         <div className="main-activities">
             <h5 className="mb-4">Activities</h5>
@@ -14,6 +24,9 @@ export default function Activities() {
                 <ActivitiesItem info="Lecturer about How to create game with Unity3D 2020" place="Udon Thani Rajabhat Univeristy" />
                 <ActivitiesItem info="Lecturer about How to create game with Unity3D 2021" place="Udon Thani Rajabhat Univeristy" />
             </ul>
+            <div className="dog-anim">
+                <Lottie options={animOptions} height="100%" width="100%" />
+            </div>
         </div>
     )
 }

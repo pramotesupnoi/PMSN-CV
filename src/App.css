@@ -109,3 +109,31 @@ body {
 .main-sec2 {
   background-color: #C629E3;
 }
+
+.main-activities {
+  position: relative;
+}
+
+.main-activities .dog-anim {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-activities .dog-anim  {
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    width: 40%;
+  }
+}
+
+.main-ref-person {
+  border-top: 4px solid #C629E3;
+  border-bottom: 4px solid #9bccdb;
+
+  /* background-image: url(./img/wb_bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% ; */
+}
