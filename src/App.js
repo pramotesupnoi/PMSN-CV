@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import TopProfile from './components/TopProfile';
 import AboutMe from './components/AboutMe';

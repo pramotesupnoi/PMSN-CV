@@ -13,9 +13,15 @@ export default function AccomplishmentsItem(props) {
       };
     return (
         <li className="cert-award-item anim-list-item mb-3">
-            <span>{props.info}</span> 
-            {/* <br /> */}
-            {/* <span className="fw-light small"> at {props.place}</span>   */}
+            <span>{props.info}</span>
+            {props.detail !== undefined ? 
+            <>
+                <br />
+                <span className="fw-light small">{props.detail}</span> 
+            </> : null
+                
+            }
+             
 
             <span className="dot">
                 <Lottie options={animOptions} height="100%" width="100%" />
