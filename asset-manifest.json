@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.c693e509.css",
+    "main.css": "./static/css/main.afcb7cc8.css",
     "main.js": "./static/js/main.5ea99158.js",
     "static/js/787.8363a890.chunk.js": "./static/js/787.8363a890.chunk.js",
     "static/media/pramote-supnoi-cv.pdf": "./static/media/pramote-supnoi-cv.44dc34e3adfeadc0bedb.pdf",
-    "static/media/abstract-background.jpg": "./static/media/abstract-background.5418f623112ec49fe982.jpg",
+    "static/media/blue-abstract-gradient-wave-wallpaper.jpg": "./static/media/blue-abstract-gradient-wave-wallpaper.67c879fb4573c17b25b0.jpg",
     "index.html": "./index.html",
-    "main.c693e509.css.map": "./static/css/main.c693e509.css.map",
+    "main.afcb7cc8.css.map": "./static/css/main.afcb7cc8.css.map",
     "main.5ea99158.js.map": "./static/js/main.5ea99158.js.map",
     "787.8363a890.chunk.js.map": "./static/js/787.8363a890.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c693e509.css",
+    "static/css/main.afcb7cc8.css",
     "static/js/main.5ea99158.js"
   ]
 }
