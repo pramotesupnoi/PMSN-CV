@@ -4,7 +4,7 @@ import AccomplishmentsItem from './AccomplishmentsItem'
 export default function Accomplishments() {
     return (
         <div className="main-accom pb-5">
-            <h5 className="mb-4">Accomplishments</h5>
+            <h3 className="mb-4 ps-3">Accomplishments</h3>
 
             <ul className="anim-list">
                 <AccomplishmentsItem info="Thailand's Mental Health Center #8 : Mental health assessment system" 

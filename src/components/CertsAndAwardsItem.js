@@ -13,13 +13,21 @@ export default function CertsAndAwardsItem(props) {
       };
     return (
         <li className="cert-award-item anim-list-item mb-3">
-            <span>{props.info}</span> 
+            <span className="fw-bold">{props.info}</span> 
             <br />
             <span className="fw-light small"> at {props.place}</span>  
-
+            {
+                props.file !== undefined ? 
+                <><br />
+                    <a href={`./file/${props.file}`} className="btn btn-sm btn-light mt-1 py-0" target="_blank" rel="noreferrer">
+                        <i className="far fa-file-alt"></i> View
+                    </a></> 
+                : null
+            }
             <span className="dot">
                 <Lottie options={animOptions} height="100%" width="100%" />
             </span>
+            
         </li>
     )
 }

@@ -20,7 +20,14 @@ export default function EducationItem(props) {
             <span className="small">GPA {props.gpa}</span>
             <br />
             <span className="fw-light small text-black-50"> at {props.place}</span>
-
+            {
+                props.file !== undefined ? 
+                <><br />
+                    <a href={`./file/${props.file}`} className="btn btn-sm btn-outline-dark mt-1 py-0" target="_blank" rel="noreferrer">
+                        <i className="far fa-file-alt"></i> View transcript
+                    </a></> 
+                : null
+            }
             <span className="dot">
                 <Lottie options={animOptions} height="100%" width="100%" />
             </span>

@@ -138,8 +138,12 @@ body {
 
 .main-ref-person {
   border-top: 4px solid #C629E3;
-  border-bottom: 4px solid #a2d5e5;
+  border-bottom: 4px solid #C629E3;
   position: relative;
+  background-image: url(./svg/blob-scene-haikei-1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-ref-person .ast-anim {
@@ -151,9 +155,27 @@ body {
   display: block;
 }
 
+.svg-spacer {
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: translateY(0px);
+}
 
-@media only screen and (min-width: 650px) {
-  .main-ref-person .ast-anim {
-    
-  }
+.svg-spacer.svg-1{
+  background-image: url(./svg/layered-waves-haikei-1.svg);
+}
+
+.svg-spacer.svg-2{
+  background-image: url(./svg/layered-waves-haikei-2.svg);
+}
+
+.main-sec2 h3{
+  text-shadow: 2px 2px #b71fd2;
+}
+
+.main-sec1 h3{
+  text-shadow: 1px 1px #d1d1d1;
 }

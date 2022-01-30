@@ -19,12 +19,17 @@ export default function AboutMe() {
         <hr className="my-5" />
         <Skills />
       </div>
+      <div className="svg-spacer svg-1"></div>
       <div className="main-sec2 p-3 py-4 shadow text-white">
         <CertsAndAwards />
       </div>
+      <div className="svg-spacer svg-2"></div>
+
       <div className="main-sec1 p-3 py-4 shadow text-dark">
         <Activities />
       </div>
+      <div className="svg-spacer svg-1"></div>
+
       <div className="main-sec2 p-3 py-4 shadow text-white">
         <Accomplishments />
       </div>

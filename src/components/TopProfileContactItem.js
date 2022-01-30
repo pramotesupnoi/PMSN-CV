@@ -11,10 +11,11 @@ export default function TopProfileContactItem(props) {
     }, [])
 
     const LinkItem = (props) => {
+        const colorClass = !props.data.colorClass ? 'text-dark' : props.data.colorClass;
         if(props.data.type === "link"){
-            return (<a href={props.data.val} target="_blank" className="text-dark fw-light text-decoration-none text-break" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to open link!">{props.data.text}</a>)
+            return (<a href={props.data.val} target="_blank" className={`${colorClass} fw-light text-decoration-none text-break`} data-bs-toggle="tooltip" data-bs-placement="top" title="Click to open link!">{props.data.text}</a>)
         }
-        return (<a href={`${props.data.type}:${props.data.val}`} className="text-dark fw-light text-decoration-none text-break" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to contact me!">{props.data.text}</a>)
+        return (<a href={`${props.data.type}:${props.data.val}`} className={`${colorClass} fw-light text-decoration-none text-break`} data-bs-toggle="tooltip" data-bs-placement="top" title="Click to contact me!">{props.data.text}</a>)
     }
     
     return (

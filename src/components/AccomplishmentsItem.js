@@ -13,7 +13,7 @@ export default function AccomplishmentsItem(props) {
       };
     return (
         <li className="cert-award-item anim-list-item mb-3">
-            <span>{props.info}</span>
+            <span className="fw-bold">{props.info}</span>
             {props.detail !== undefined ? 
             <>
                 <br />

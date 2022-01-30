@@ -14,7 +14,7 @@ export default function Activities() {
       };
     return (
         <div className="main-activities">
-            <h5 className="mb-4">Activities</h5>
+            <h3 className="mb-4 ps-3">Activities</h3>
             <ul className="anim-list">
                 <ActivitiesItem info="Participated in a National Software Contest (NSC) 17th Final Round 2015" place="Fasion Island Shopping Mall, Bangkok" />
                 <ActivitiesItem info="Participated in a National Software Contest (NSC) 18th Final Round 2016" place="Mahisorn Hall, Siam Commercial Bank PCL., Head Office. Bangkok" />
