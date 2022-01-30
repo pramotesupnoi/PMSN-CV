@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.afcb7cc8.css",
-    "main.js": "./static/js/main.5ea99158.js",
+    "main.css": "./static/css/main.bb81e76a.css",
+    "main.js": "./static/js/main.f3ed35eb.js",
     "static/js/787.8363a890.chunk.js": "./static/js/787.8363a890.chunk.js",
-    "static/media/pramote-supnoi-cv.pdf": "./static/media/pramote-supnoi-cv.44dc34e3adfeadc0bedb.pdf",
+    "static/media/pramote-supnoi-cv.pdf": "./static/media/pramote-supnoi-cv.99ac4798e450c6b29f4b.pdf",
     "static/media/blue-abstract-gradient-wave-wallpaper.jpg": "./static/media/blue-abstract-gradient-wave-wallpaper.67c879fb4573c17b25b0.jpg",
+    "static/media/blob-scene-haikei-1.svg": "./static/media/blob-scene-haikei-1.840511dfebd0822c2e8b.svg",
+    "static/media/layered-waves-haikei-2.svg": "./static/media/layered-waves-haikei-2.b418eac7649aeb9dbf48.svg",
+    "static/media/layered-waves-haikei-1.svg": "./static/media/layered-waves-haikei-1.d840e342ff3f0ae969db.svg",
     "index.html": "./index.html",
-    "main.afcb7cc8.css.map": "./static/css/main.afcb7cc8.css.map",
-    "main.5ea99158.js.map": "./static/js/main.5ea99158.js.map",
+    "main.bb81e76a.css.map": "./static/css/main.bb81e76a.css.map",
+    "main.f3ed35eb.js.map": "./static/js/main.f3ed35eb.js.map",
     "787.8363a890.chunk.js.map": "./static/js/787.8363a890.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afcb7cc8.css",
-    "static/js/main.5ea99158.js"
+    "static/css/main.bb81e76a.css",
+    "static/js/main.f3ed35eb.js"
   ]
 }
