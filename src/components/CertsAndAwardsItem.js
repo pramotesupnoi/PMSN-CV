@@ -17,7 +17,7 @@ export default function CertsAndAwardsItem(props) {
             <br />
             <span className="fw-light small"> at {props.place}</span>  
             {
-                props.file !== undefined ? 
+                props.file !== undefined && !props.isForCapture ? 
                 <><br />
                     <a href={`./file/${props.file}`} className="btn btn-sm btn-light mt-1 py-0" target="_blank" rel="noreferrer">
                         <i className="far fa-file-alt"></i> View

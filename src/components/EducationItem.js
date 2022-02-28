@@ -21,7 +21,7 @@ export default function EducationItem(props) {
             <br />
             <span className="fw-light small text-black-50"> at {props.place}</span>
             {
-                props.file !== undefined ? 
+                props.file !== undefined && !props.isForCapture ? 
                 <><br />
                     <a href={`./file/${props.file}`} className="btn btn-sm btn-outline-dark mt-1 py-0" target="_blank" rel="noreferrer">
                         <i className="far fa-file-alt"></i> View transcript

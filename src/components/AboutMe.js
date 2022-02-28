@@ -8,12 +8,12 @@ import RefPerson from "./RefPerson";
 import Education from "./Education";
 import Accomplishments from "./Accomplishments";
 
-export default function AboutMe() {
+export default function AboutMe(props) {
   return (
     <div className="col-lg-8 col-xl-9">
       <div className="main-sec1 p-3 py-4 shadow text-dark">
         <AboutMeTop />
-        <Education />
+        <Education isForCapture={props.isForCapture} />
         <hr className="my-5" />
         <WorkExp />
         <hr className="my-5" />
@@ -21,7 +21,7 @@ export default function AboutMe() {
       </div>
       <div className="svg-spacer svg-1"></div>
       <div className="main-sec2 p-3 py-4 shadow text-white">
-        <CertsAndAwards />
+        <CertsAndAwards isForCapture={props.isForCapture} />
       </div>
       <div className="svg-spacer svg-2"></div>
 
